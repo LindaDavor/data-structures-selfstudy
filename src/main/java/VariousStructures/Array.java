@@ -16,7 +16,7 @@ public class Array {
         System.out.println(Arrays.toString(colors));
 
         //When the elements of the array is known
-        int[] numbers = {25,800};
+        //int[] numbers = {25,800};
 
         //looping through arrays
         //1

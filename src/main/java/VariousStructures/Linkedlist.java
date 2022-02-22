@@ -9,19 +9,24 @@ public class Linkedlist{
         list.add("Steve");
         list.add("Lilly");
         list.add("Richy");
-        list.add("Carl");
-        list.add("Raj");
+        list.add("Nicky");
+        list.add("Joe");
+        System.out.println(list);
 
         //Adding an element to the first position
-        list.addFirst("Negan");
-
+        list.addFirst("Sela");
         //Adding an element to the last position
-        list.addLast("Rick");
-        // removes
-        list.removeFirst();
+        list.addLast("Mike");
+        System.out.println("Linked list after addition is " + list);
 
-        //Adding an element to the 3rd position
-        list.add(2, "Glenn");
+        // removes first element / list.remove(0);
+        //list.removeFirst();
+        list.removeLast();
+        System.out.println(list);
+
+        //Adding an element to the 5th position
+        list.add(4, "Jane");
+        System.out.println("Item in position 5 is "+ list);
 
         //Iterating LinkedList
         Iterator<String> iterator=list.iterator();

@@ -12,8 +12,8 @@ public class Queues {
         Party.add(new Person("Sey", 15));
 
         //peek returns the very first element in the queue
-        System.out.println(Party.peek());
-        System.out.println(Party.size());
+        System.out.println("The first element is "+ Party.peek());
+        System.out.println("The size of the queue is "+ Party.size());
         //returns(retrieves) the first element and also removes it from the queue
         System.out.println(Party.poll());
         System.out.println(Party.size());
