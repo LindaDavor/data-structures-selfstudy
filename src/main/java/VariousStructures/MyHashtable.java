@@ -12,7 +12,7 @@ public class MyHashtable {
         String key;
 
         // creating an instance of the hashtable
-        Hashtable<String, String> hashtable = new Hashtable<String,String>();
+        Hashtable<String,String> hashtable = new Hashtable<String,String>();
 
         //adding keys & values to hashtable
         hashtable.put("A","Mango");
