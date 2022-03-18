@@ -23,10 +23,12 @@ public class Array {
         for (int i = 0; i < colors.length; i++){
             System.out.println(colors[i]);
         }
+        System.out.println("***************");
         //2
         for (int i = colors.length -1; i>=0; i--){
             System.out.println(colors[i]);
         }
+        System.out.println("***************");
         //3
         //1.enhance 'for loop'
         for(String color : colors){
