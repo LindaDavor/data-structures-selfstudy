@@ -1,4 +1,4 @@
-package VariousStructures;
+package VariousStructures.differences;
 
 import java.util.*;
 

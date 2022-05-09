@@ -1,4 +1,4 @@
-package VariousStructures;
+package VariousStructures.dataStructures;
 
     public class Methods {
         static void myMethod(String fname, int age) {
@@ -36,4 +36,3 @@ package VariousStructures;
             System.out.println(obj.x);
         }
     }
-

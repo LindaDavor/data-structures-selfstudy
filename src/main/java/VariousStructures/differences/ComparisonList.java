@@ -1,17 +1,17 @@
-package VariousStructures;
+package VariousStructures.differences;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 
-public class ConparisonList {
+public class ComparisonList {
     public static void main(String[] args) {
         int [] ints = new int[] {1,4,8,2};
         List<Integer> list1 = new ArrayList<>();
         list1.add(5);
         list1.add(8);
         list1.add(2);
-        //This will searching through a contiguous array({1,4,8,2})
+        //This will search through a contiguous array({1,4,8,2})
         System.out.println(list1);
 
         //has fix size

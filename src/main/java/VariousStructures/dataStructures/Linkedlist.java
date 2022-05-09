@@ -1,4 +1,4 @@
-package VariousStructures;
+package VariousStructures.dataStructures;
 import java.util.*;
 
 public class Linkedlist{
